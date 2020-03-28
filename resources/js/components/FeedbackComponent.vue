@@ -83,6 +83,7 @@ export default {
           this.errorsPhone = null
           this.email = null
           this.phone = null
+          this.message = null
           this.success = resp.data.message
         })
         .catch(error => {

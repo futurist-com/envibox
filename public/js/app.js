@@ -1992,6 +1992,7 @@ __webpack_require__.r(__webpack_exports__);
         _this.errorsPhone = null;
         _this.email = null;
         _this.phone = null;
+        _this.message = null;
         _this.success = resp.data.message;
       })["catch"](function (error) {
         _this.success = null;
